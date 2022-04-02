@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./management .css">
+</head>
+<body>
+    <div class="info">
+        <img src="./img/logo.png" alt="" height="100px">
+        <h1>Sale management ver 1.0</h1>
+        <img src="./img/logo2.png" alt="" height="100px">
+    </div>
+    
+    <div class="menu">
+        <ul>
+            <li>Hệ thống</li>
+            <li>Danh mục sản phẩm</li>
+            <li>Quản lý bán hàng</li>
+            <li>Quản lý tồn kho</li>
+            <li>Quản lý thu chi</li>
+            <li>Quản lý nợ</li>
+            <li>Khuyến mãi</li>
+        </ul>
+    </div>
+
+    <div class="show_product">
+
+    </div>
+
+    <div class="bill_area">
+        <table border="1" id="bill_detail">
+            <caption>HÓA ĐƠN BÁN HÀNG</caption>
+            <thead>
+                <tr>
+                    <th>STT</th>
+                    <th onclick="sortProduct()">Sản phẩm</th>
+                    <th>Giá</th>
+                    <th>Số lượng</th>
+                    <th>Thành tiền</th>
+                </tr> 
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">TỔNG TIỀN</td>
+                    <td colspan="3" id="total"></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+</body>
+<script src="./management .js"></script>
+</html>
