@@ -87,13 +87,19 @@ function showBillDetail(){
                 <td class='td_name'>${item.productName}</td>
                 <td class='td_number'>${formatCurrency(item.price)}</td>
                 <td>
-                    <button onclick=less(${position})>-</button>
+                    <a href="javascrip:;" title='Giảm' onclick=less(${position})>
+                        <i class="fas fa-minus"></i>
+                    </a>
                     <input id='count_${position}' type="number" style="width:25px; text-align: center;" value='${item.count}' onchange='changeCount(${position})'>
-                    <button onclick=add(${position})>+</button>
+                    <a href="javascrip:;" title='Thêm' onclick=add(${position})>
+                        <i class="fas fa-plus"></i></i>
+                    </a>
                 </td>
                 <td class='td_number'>${formatCurrency(item.amount)}</td>
                 <td>
-                    <button onclick="removeItem(${position})">Xóa</button>
+                    <a href="javascrip:;" title='Xóa' onclick="removeItem(${position})">
+                        <i class="far fa-trash-alt"></i>
+                    </a>
                 </td>
             </tr>
         `
@@ -170,4 +176,5 @@ function sortProduct() {
     bill.sort((a, b) => a.productName.localeCompare(b.productName));
     showBillDetail();
 }
+
 renderProduct();

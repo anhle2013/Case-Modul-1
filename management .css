@@ -28,15 +28,17 @@
 }
 .info img {
     float: left;
+    width: 7%;
+    height: 7%;
 }
 .info h1 {
-    height: 80px;
-    width: 1360px;
-    background-image: linear-gradient(to right,red, yellow);
     float: left;
+    width: 85%;
+    background-image: linear-gradient(to right,red, yellow);
     text-align: center;
     color: whitesmoke;
-    padding-top: 20px;
+    padding-top: 2%;
+    padding-bottom: 2.5%;
     margin-top: 0px ;
 }
 
@@ -106,7 +108,9 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-
+a {
+    text-decoration: none;
+}
 @media (max-width: 800px) {
     .show_product {
         width: auto;
@@ -125,3 +129,4 @@ input::-webkit-inner-spin-button {
         margin: 0;
     }    
 }
+
