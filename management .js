@@ -83,17 +83,13 @@ function showBillDetail(){
     let htmls = bill.map(function(item,position){
         return `
             <tr>
-                <td>${position +1}</td>
+                <td class='text-align'>${position +1}</td>
                 <td class='td_name'>${item.productName}</td>
                 <td class='td_number'>${formatCurrency(item.price)}</td>
                 <td>
-                    <a href="javascrip:;" title='Giảm' onclick=less(${position})>
-                        <i class="fas fa-minus"></i>
-                    </a>
+                    <Button title='Giảm' onclick=less(${position})>-</Button>
                     <input id='count_${position}' type="number" style="width:25px; text-align: center;" value='${item.count}' onchange='changeCount(${position})'>
-                    <a href="javascrip:;" title='Thêm' onclick=add(${position})>
-                        <i class="fas fa-plus"></i></i>
-                    </a>
+                    <Button title='Thêm' onclick=add(${position})>+</Button>
                 </td>
                 <td class='td_number'>${formatCurrency(item.amount)}</td>
                 <td>

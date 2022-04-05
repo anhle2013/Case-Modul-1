@@ -89,6 +89,9 @@ td {
     font-weight: bolder;
     font-style: italic;
 }
+.text-align {
+    text-align: center;
+}
 caption {
     color: red;
     font-size: 40px;
