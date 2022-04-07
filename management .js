@@ -172,5 +172,9 @@ function sortProduct() {
     bill.sort((a, b) => a.productName.localeCompare(b.productName));
     showBillDetail();
 }
+function resetBill() {
+    bill=[];
+    showBillDetail();
+}
 
 renderProduct();
