@@ -10,3 +10,5 @@
 + font-awesome 5.15.4
 ## Link sản phẩm
 + https://anhle2013.github.io/Sale-Managament/
+## Hình ảnh minh họa
+https://www.binhminhplastic.com.vn/danh-sach-san-pham/phu-tung-pp-r/phu-tung-pp-r-nhua-binh-minh-75.html
