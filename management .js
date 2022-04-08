@@ -176,5 +176,4 @@ function resetBill() {
     bill=[];
     showBillDetail();
 }
-
 renderProduct();
