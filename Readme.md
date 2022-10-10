@@ -1,4 +1,4 @@
-# Case Study Modul 1: Sale Managament
+# Case Study Modul 1: Sale Management
 # Xây dựng giao diện bán hàng
 ## Các kiến thức áp dụng trong project:
 1. HTML
